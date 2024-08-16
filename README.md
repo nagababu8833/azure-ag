@@ -21,4 +21,5 @@ az network vnet subnet create -g $grp --vnet-name $vnetName -n $subnetName --add
 # CREATING VMs
 az vm create --resource-group $grp --name $vmName --image Ubuntu2204 --vnet-name $vnetName --subnet $subnetName --admin-username kamal --admin-password Hello@12345#
 az vm create --resource-group $grp --name $vmName2 --image Ubuntu2204 --vnet-name $vnetName --subnet $subnetName --admin-username kamal --admin-password Hello@12345#
+
 ```
