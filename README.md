@@ -2,12 +2,12 @@
 
 ```
 
-$grp="AppGatewayTestRG"
-$location="southeastasia"
-$vnetName="VNET"
-$subnetName="SUBNET_1"
-$vmName="IMAGE_VM"
-$vmName2="VIDEO_VM"
+grp="AppGatewayTestRG"
+location="southeastasia"
+vnetName="VNET"
+subnetName="SUBNET_1"
+vmName="IMAGE_VM"
+vmName2="VIDEO_VM"
 
 # CREATE RESOURCE GROUP
 az group create --name $grp --location $location
